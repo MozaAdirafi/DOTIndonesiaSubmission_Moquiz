@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import ThemeToggleButton from './ThemeToggleButton';
 
 const ResumeScreen = ({ onReset, onResume }) => {
-
-
     return (
         <div className="resume-container">
             <ThemeToggleButton />

@@ -2,14 +2,14 @@ import { createSlice } from "@reduxjs/toolkit";
 const timerSlice = createSlice({
     name:  'timer',
     initialState:{
-        secondsRemaining: 210
+        secondsRemaining: 60
     },
     reducers:{
         lessSeconds: (state)=>{
             state.secondsRemaining -= 1
         },
         restartTimer: (state)=>{
-            state.secondsRemaining = 210
+            state.secondsRemaining = 60
         }
     }
 })
